@@ -11,31 +11,32 @@ public class calculateDistance {
 	        BufferedReader infile = new BufferedReader(new FileReader(file));
 	        String points;
 		
-		while ((points = infile.readLine()) != null) {
-			points = points.replaceAll("[\\(\\),]", "");
+	        while (infile.readLine() != null) {
+	        	points = infile.readLine();
+	        	points = points.replaceAll("[\\(\\),]", "");
 			
-			int space = points.indexOf(" ");
-			String x = points.substring(0, space);
-			points = points.substring(space + 1);
+	        	int space = points.indexOf(" ");
+	        	String x = points.substring(0, space);
+	        	points = points.substring(space + 1);
 			
-			space = points.indexOf(" ");
-			String y = points.substring(0, space);
-			points = points.substring(space + 1);
+	        	space = points.indexOf(" ");
+	        	String y = points.substring(0, space);
+	        	points = points.substring(space + 1);
 			
-			space = points.indexOf(" ");
-			String xx = points.substring(0, space);
-			points = points.substring(space + 1);
+	        	space = points.indexOf(" ");
+	        	String xx = points.substring(0, space);
+	        	points = points.substring(space + 1);
 			
-			space = points.indexOf(" ");
-			String yy = points.substring(0);
+	        	space = points.indexOf(" ");
+				String yy = points.substring(0);
 			
-			int x1 = Integer.parseInt(x);
-			int y1 = Integer.parseInt(y);
-			int x2 = Integer.parseInt(xx);
-			int y2 = Integer.parseInt(yy);
+				int x1 = Integer.parseInt(x);
+				int y1 = Integer.parseInt(y);
+				int x2 = Integer.parseInt(xx);
+				int y2 = Integer.parseInt(yy);
 			
-			int distance = (int) Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-			System.out.println(distance);
+				int distance = (int) Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+				System.out.println(distance);
 		}
 		
 		infile.close();
