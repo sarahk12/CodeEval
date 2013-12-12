@@ -11,8 +11,7 @@ public class calculateDistance {
 	        BufferedReader infile = new BufferedReader(new FileReader(file));
 	        String points;
 		
-	        while (infile.readLine() != null) {
-	        	points = infile.readLine();
+	        while ((points = infile.readLine()) != null) {
 	        	points = points.replaceAll("[\\(\\),]", "");
 			
 	        	int space = points.indexOf(" ");
