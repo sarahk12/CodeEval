@@ -36,7 +36,7 @@ public class calculateDistance {
 			
 				int distance = (int) Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 				System.out.println(distance);
-		}
+	        }
 		
 		infile.close();
 		
