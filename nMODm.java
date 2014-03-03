@@ -4,6 +4,11 @@ import java.io.FileReader;
 import java.io.IOException;
 //import java.util.Scanner;
 
+/*
+	@author Sarah Kidd (www.linkedin.com/in/sarahkidd/)
+	Description of problem at: https://www.codeeval.com/open_challenges/62/
+*/
+
 public class nMODm {
 	public static void main(String[] args) {
 		try {

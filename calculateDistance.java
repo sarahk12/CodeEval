@@ -1,3 +1,8 @@
+/*
+	@author Sarah Kidd (www.linkedin.com/in/sarahkidd/)
+	Description of problem at: https://www.codeeval.com/open_challenges/99/
+*/
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
