@@ -40,7 +40,6 @@ namespace sarahTesting
             for (int i = 0; i < 100; i++)
             {
                 int total = 0;
-                string str = num.ToString();
                 while (num > 0)
                 {
                     total = Convert.ToInt32(Math.Pow((num % 10), 2)) + total;
