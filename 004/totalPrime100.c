@@ -1,6 +1,6 @@
 /*
 	@author Sarah Kidd (www.linkedin.com/in/sarahkidd/)
-	Description of problem at: https://www.codeeval.com/open_challenges/25/
+	Description of problem at: https://www.codeeval.com/open_challenges/4/
 */
 
 int main() {
